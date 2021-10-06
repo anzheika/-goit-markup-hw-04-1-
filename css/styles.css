@@ -723,6 +723,7 @@ button {
   list-style: none;
 }
 .address-name {
+  font-family: inherit;
   color: white;
   font-style: normal;
   font-weight: normal;
@@ -752,6 +753,11 @@ button {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* =======КОНЕЦ ФУТЕРА======== */
