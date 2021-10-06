@@ -159,9 +159,9 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.nav-link.current,
-.nav-link:hover,
-.nav-link:focus {
+.nav-link-left.current,
+.nav-link-left:hover,
+.nav-link-left:focus {
   color: var(--accent-color);
 }
 .nav-item:not(:last-child) {
@@ -738,6 +738,7 @@ button {
   margin-bottom: 8px;
 }
 .footer-link {
+  font-family: inherit;
   display: block;
   text-decoration: none;
   font-style: normal;
